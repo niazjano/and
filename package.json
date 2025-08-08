@@ -1,0 +1,24 @@
+{
+  "name": "adrian-and-sons-website",
+  "version": "1.0.0",
+  "description": "Modern static website for Adrian & Sons Group Limited",
+  "type": "module",
+  "scripts": {
+    "fetch-images": "node scripts/fetchImages.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "static-site",
+    "construction",
+    "renovation",
+    "github-pages"
+  ],
+  "author": "Adrian & Sons Group Limited",
+  "license": "MIT"
+}
